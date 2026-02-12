@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <header>
+        <h1> COUNTER GAME</h1>
+        <label id="countlabel">0</label>
+        <br>
+        <br>
+        <div class="myclicks">
+        <button id="increasebtn">Increase</button>
+        <button id="resetbtn">Reset</button>
+        <button id="decreasebtn">Decrease</button>
+        </div>
+    </header>
+    <script>
+        let count=0;
+      document .getElementById ("increasebtn").onclick=function(){
+count+=1;
+document .getElementById ("countlabel").innerHTML=count;
+      }
+ document .getElementById ("resetbtn").onclick=function(){
+        count=0;
+        document .getElementById ("countlabel").innerHTML=count;
+      }
+      document.getElementById("decreasebtn").onclick = function () {
+    if (count > 0) {
+        count -= 1;
+    }
+    document.getElementById("countlabel").textContent = count;
+};
+
+
+
+
+      
+      
+
+    </script>
+    
+</body>
+</html>
+
+
+

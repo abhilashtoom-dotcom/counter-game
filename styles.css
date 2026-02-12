@@ -1,0 +1,55 @@
+ #countlabel{
+     align-items: center;
+    font-size: 100px;
+    display: block;
+    text-align: center;
+  
+
+ }
+
+ header{
+   height: 60vh;
+   width: 80vh;
+   background-color: antiquewhite;
+   align-items: center;
+   text-align: center;
+   display: block;
+   border: 3px solid rgb(69, 19, 232);
+   padding: 24px;
+  
+ }
+
+ .myclicks{
+   display: flex;
+   padding-left: 100px;
+   gap: 50px;
+
+
+ }
+  
+ #increasebtn{
+   font-size: 25px;
+    background-color: green;
+    color: white;
+}
+
+#decreasebtn{
+   font-size: 25px;
+    background-color:red;
+    color: white;
+}
+
+#resetbtn{
+   font-size: 25px;
+    background-color: orange;
+    color: white;
+}
+button:hover{
+   
+    transform: scale(1.1);
+    opacity: 0.9;
+   
+}
+button:active{
+    transform: scale(0.95);
+}
